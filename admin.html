@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Admin Panel</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="glass admin-box">
+  <h2>Admin Giriş</h2>
+
+  <input id="email" type="email" placeholder="Admin Email">
+  <input id="password" type="password" placeholder="Şifre">
+  <button id="loginBtn">Giriş Yap</button>
+
+  <div id="panel" style="display:none">
+    <h3>Galeri Yönetimi</h3>
+    <input type="file" id="file">
+    <button id="uploadBtn">Fotoğraf Yükle</button>
+    <button id="logoutBtn">Çıkış</button>
+  </div>
+</div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
